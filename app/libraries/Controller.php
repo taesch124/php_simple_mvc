@@ -5,7 +5,7 @@
 class Controller {
     //Load model
     public function model($model) {
-        if(file_exists('../app/controllers/'.$model.'.php')) {
+        if(file_exists('../app/models/'.$model.'.php')) {
             require_once '../app/models/'.$model.'.php';
             return new $model();
         } else {
