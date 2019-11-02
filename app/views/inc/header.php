@@ -8,5 +8,4 @@
     <title><?php echo SITENAME ?></title>
 </head>
 <body>
-    <p>Header</p>
     

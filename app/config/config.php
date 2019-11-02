@@ -1,9 +1,9 @@
 <?php
 //Database
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', 'admin123');
-define('DB_NAME', 'traversymvc');
+define('DB_USER', '__USER__');
+define('DB_PASS', '__PASS__');
+define('DB_NAME', '__DBNAME__');
 
 //App root
 define('APPROOT', dirname(dirname(__FILE__)));
@@ -11,4 +11,4 @@ define('APPROOT', dirname(dirname(__FILE__)));
 define('URLROOT', 'http://localhost/');
 
 //Site name
-define('SITENAME', 'Share Posts');
+define('SITENAME', '__SITE_NAME__');
